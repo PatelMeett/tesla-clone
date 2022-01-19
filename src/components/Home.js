@@ -53,7 +53,18 @@ function Home() {
         backgroundImg="accessories.jpg"
         leftBtnText="Shop now"
       />
+
+      <Footer>
+        <a href="#" class="copyright">Tesla &copy; 2022</a>
+        <a href="#">Privacy & Legal</a>
+        <a href="#">Contact</a>
+        <a href="#">Careers</a>
+        <a href="#">News</a>
+        <a href="#">Engage</a>
+        <a href="#">Locations</a>
+      </Footer>
     </Container>
+
   );
 }
 
@@ -62,4 +73,17 @@ export default Home;
 const Container = styled.div`
   height: 100vh;
   z-index:10;
+`
+const Footer = styled.div`
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    a{
+        font-size:.8em;
+        font-weight: 300;
+        padding: 0 10px;
+        flex-Wrap: nowrap;
+    }
 `

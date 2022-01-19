@@ -19,10 +19,12 @@ function Header() {
                 {cars && cars.map((car, index)=>(
                     <a key={index} href="#">{car}</a>
                 ))}
+                <a href="#">Solar Roof</a>
+                <a href="#">Solar Panels</a>
             </Menu>
             <RightMenu>
                 <a href="#">Shop</a>
-                <a href="#">Tesla Account</a>
+                <a href="#">Account</a>
                 <CustomeMenu onClick={() => setBurgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
@@ -32,16 +34,18 @@ function Header() {
                 {cars && cars.map((car, index)=>(
                     <li key={index}><a href="#">{car}</a></li>
                 ))}
+                <li><a href="#">Solar Roof</a></li>
+                <li><a href="#">Solar Panels</a></li>
                 <li><a href="#">Existing inventory</a></li>
                 <li><a href="#">used inventory</a></li>
                 <li><a href="#">Trade-in</a></li>
-                <li><a href="#">Cybertruck</a></li>
-                <li><a href="#">Roadster</a></li>
-                <li><a href="#">Semi</a></li>
-                <li><a href="#">Existing inventory</a></li>
-                <li><a href="#">Existing inventory</a></li>
-                <li><a href="#">Existing inventory</a></li>
-                <li><a href="#">Existing inventory</a></li>
+                <li><a href="#">Test Drive</a></li>
+                <li><a href="#">Powerwall</a></li>
+                <li><a href="#">Commercial Energy</a></li>
+                <li><a href="#">Utilities</a></li>
+                <li><a href="#">Charging</a></li>
+                <li><a href="#">Find US</a></li>
+                <li><a href="#">Support</a></li>
 
             </BurgerNav>
 
@@ -70,8 +74,8 @@ const Menu = styled.div`
     justify-content: center;
     flex: 1;
     a{
-        font-weight: 550;
-        text-transform: uppercase;
+        font-weight: 545;
+        ${'' /* text-transform: uppercase; */}
         padding: 0 10px;
         flex-Wrap: nowrap;
     }
@@ -86,9 +90,9 @@ const RightMenu = styled.div`
     display: flex;
     align-items: center;
      a{
-        font-weight: 550;
-        text-transform: uppercase;
-        margin-right:10px
+        font-weight: 545;
+        ${'' /* text-transform: uppercase; */}
+        margin-right:15px
         
     }
 `
