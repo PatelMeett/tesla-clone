@@ -8,14 +8,14 @@ function Home() {
       <Section
         title="Model S"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-s.jpg"
+        backgroundImg="../model-s.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
       />
       <Section
         title="Model Y"
         description="Order Online for Touchless Delivery"
-        backgroundImg="model-y.jpg"
+        backgroundImg="../model-y.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
       />
