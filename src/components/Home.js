@@ -6,9 +6,9 @@ function Home() {
   return (
     <Container>
       <Section
-        title="Model S"
+        title="Model 3"
         description="Order Online for Touchless Delivery"
-        backgroundImg="./images/model-s.jpg"
+        backgroundImg="./images/model-3.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
       />
@@ -20,9 +20,9 @@ function Home() {
         rightBtnText="Existing inventory"
       />
       <Section
-        title="Model 3"
+        title="Model S"
         description="Order Online for Touchless Delivery"
-        backgroundImg="./images/model-3.jpg"
+        backgroundImg="./images/model-s.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
       />
@@ -34,8 +34,8 @@ function Home() {
         rightBtnText="Existing inventory"
       />
        <Section
-        title="Lowest Cost Solar Panels in America"
-        description="Money-back guarantee"
+        title="Solar Panels"
+        description="Lowest Cost Solar Panels in America"
         backgroundImg="./images/solar-panel.jpg"
         leftBtnText="Order now"
         rightBtnText="Learn more"
