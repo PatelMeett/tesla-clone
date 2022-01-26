@@ -12,9 +12,11 @@ function Header() {
 
     return (
         <Container>
-            <a>
-                <img src="./images/logo.svg" />
-            </a>
+            <Logo>
+                <a>
+                    <img src="./images/logo.svg" />
+                </a>
+            </Logo>
             <Menu>
                 {cars && cars.map((car, index)=>(
                     <a key={index} href="#">{car}</a>
@@ -66,6 +68,19 @@ const Container = styled.div`
     left :0;
     right :0;
     z-index:1;
+
+`
+const Logo = styled.div`
+ a img{
+    
+    width : 130px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    padding-bottom: 5px;
+ }
+    
 
 `
 const Menu = styled.div`
